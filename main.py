@@ -7,7 +7,7 @@ def main():
     fizzbuzz_list = [
         ["fizz", 3],
         ["buzz", 5],
-	["rezz", 23]
+	    ["rezz", 23]
     ]
     fizzbuzzed_list = []
     for i in range(1, max):
