@@ -3,10 +3,11 @@ import time
 
 def main():
     start = time.time()
-    max = 10000000
+    max = 10000
     fizzbuzz_list = [
         ["fizz", 3],
-        ["buzz", 5]
+        ["buzz", 5],
+	["rezz", 23]
     ]
     fizzbuzzed_list = []
     for i in range(1, max):
@@ -18,7 +19,8 @@ def main():
             fizzbuzzed_list.append(i)
         else:
             fizzbuzzed_list.append(name)
+    print(fizzbuzzed_list)
     end = time.time()
     time_elapsed = end - start
-    print(time_elapsed)
+    print(f"Execution time was: {time_elapsed} seconds")
 main()
