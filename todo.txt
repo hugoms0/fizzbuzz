@@ -4,6 +4,4 @@ TODO
 
 - Also has to ask for "max" value
 
-- Write the contents to the program to a file
-
 - program asks how much of the file you want to read: (all), (head -n 30), (tail -n 30) 
